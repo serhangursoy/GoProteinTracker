@@ -1,3 +1,5 @@
+![Logo](http://tw.greywool.com/i/jivb7.png)
+
 # Protein Tracker with GO
 This is a simple project written in Go Language.
 * It takes RNA Nucleic Acid sequence as input. Input should be in **FASTA** format. Means that, It should start with '>' and the next corresponding line should contain nucleic acid sequence. There is a simple portion of Protein database and test case in the Data folder.
@@ -7,6 +9,7 @@ This is a simple project written in Go Language.
 ### Optimization
 Because searching matching protein is painfully slow sometimes, I used Go's lovely functionality to speed up things. What it does a parallel search in whole database and stops others once it founds a match. This is not the ideal way of doing this, but for the sake of speed, I implemented it with that way. I might change this to parallel search and reporting findings in the future.
 
+![Test](http://tw.greywool.com/i/OXWdC.png)
 ## Arguments and Usage
 In its most simplistic form, it takes single parameter, the location of the input file.
 Like this,
